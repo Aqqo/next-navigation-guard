@@ -17,7 +17,8 @@
     "build": "tsc -p .",
     "watch": "tsc --watch -p .",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "check:packaging": "pnpm dlx @arethetypeswrong/cli --pack ."
+    "check:packaging": "pnpm dlx @arethetypeswrong/cli --pack .",
+    "prepare": "npm run build"
   },
   "keywords": [],
   "author": "ypresto <yuya.presto@gmail.com>",
